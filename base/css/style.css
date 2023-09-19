@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.square {
+  width: 40px;
+  height: 40px;
+  background-color: aqua;
+  border: 1px solid red;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;  
+  height: 100vh;
+  background-color: lightgreen;
+} 
+
+.third {
+  align-self: flex-end;
+}
+/* 
+.float {
+  float: left;
+} */
